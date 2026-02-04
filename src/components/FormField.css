@@ -1,0 +1,32 @@
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  margin-bottom: 1rem;
+  color: #e2e8f0;
+}
+
+.field-label {
+  font-weight: 600;
+}
+
+.field input,
+.field textarea,
+.field select {
+  padding: 0.6rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid #1e293b;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.field input:focus,
+.field textarea:focus,
+.field select:focus {
+  outline: 2px solid #38bdf8;
+}
+
+.field-error {
+  color: #f87171;
+  font-size: 0.9rem;
+}
